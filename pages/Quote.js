@@ -26,7 +26,7 @@ function Quote() {
     const randomResult = shuffle(quotes).pop();
 
     return (
-        <div className="flex ml-8 mr-8 mb-4 mt-4 bg-white h-full max-w-screen-sm">
+        <div className="flex ml-8 mr-8 mb-6 mt-2 bg-white h-full max-w-screen-sm">
             <blockquote className="relative p-4 text-xl italic border-l-8 bg-[#192114]/75 rounded-3xl text-white border-[#ff462d] quote">
                 <p className="font-bold text-3xl mx-2 font-serif">“</p>
                 <p suppressHydrationWarning className="mb-3">{randomResult[0]}</p>
