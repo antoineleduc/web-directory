@@ -9,16 +9,17 @@ export default function Home() {
 
   return (
     <div className="bg-white h-full">
+      <body className="bg-white">
       <Head>
         <title>Web Directory</title>
       </Head>
-
       <main>
         <Header />
         <Navigation />
         <HomePage />
         <Footer />
       </main>
+      </body>
     </div>
     
   )
