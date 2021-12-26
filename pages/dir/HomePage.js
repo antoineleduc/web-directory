@@ -9,13 +9,20 @@ function HomePage() {
             <Quote/>
             <Quote/>
             <Quote/>
+            <Quote/>
+            <Quote/>
+            <Quote/>
+            <Quote/>
+            <Quote/>
+            <Quote/>
+            <Quote/>
+            <Quote/>
         </div>
     );
 
     const LoggedInUser = (
         (uri)
     );
-
 
     return QuoteBlock
     return LoggedInUser

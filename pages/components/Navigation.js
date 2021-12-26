@@ -4,6 +4,7 @@ import {
     AtSymbolIcon,
     QuestionMarkCircleIcon
   } from "@heroicons/react/outline"
+import HomePage from "../dir/HomePage"
 
 function Navigation() {
     return (
@@ -30,4 +31,4 @@ function Navigation() {
     )
 }
 
-export default Navigation
+export default Navigation;
