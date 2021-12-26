@@ -1,4 +1,4 @@
-import Quote from "./Quote";
+import Quote from "../components/Quote.js";
 
 const uri = "http://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc"
 
