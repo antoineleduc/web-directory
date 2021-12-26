@@ -2,7 +2,7 @@ import Quote from "./Quote";
 
 const uri = "http://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc"
 
-function Center() {
+function Home() {
 
     const QuoteBlock = (
         <div>
@@ -21,4 +21,4 @@ function Center() {
     return LoggedInUser
 }
 
-export default Center
+export default Home
