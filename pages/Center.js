@@ -13,6 +13,14 @@ function httpGetAsync(theUrl, callback)
     xmlHttp.send(null);
 }
 
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+
 function Center() {
 
     const QuoteBlock = (
@@ -24,11 +32,12 @@ function Center() {
     );
 
     const LoggedInUser = (
-        httpGetAsync( uri, any )
+        httpGet(uri)
     );
 
 
     return QuoteBlock
+    return LoggedInUser
 }
 
 export default Center
