@@ -7,7 +7,7 @@ const url = "http://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%
 function HomePage() {
 
     const userPresence = (
-        <div className="flex bg-kyndryl/80 text-white font-semibold p-1 items-center rounded-full space-x-2 border-kyndryl-green/60 border-2">
+        <div className="flex bg-kyndryl/80 text-white font-semibold p-1 items-center justify-center rounded-full space-x-2 border-kyndryl-green/60 border-2">
             <span className="animate-pulse items-center justify-start bg-green-500 w-8 h-8 rounded-full"> </span>
             <p className="flex flex-grow pr-3">Antoine Leduc</p>
         </div>)
@@ -26,25 +26,8 @@ function HomePage() {
 				    </ul>
                 </div>
             </div>
-            <div className="flex-col w-3/12 pr-0 space-y-2.5">
-                <div className="flex max-h-9 items-start min-w-fit pr-8 w-full right-8">
-                    {userPresence}
-                </div>
-                <div className="flex max-h-9 items-start min-w-fit pr-8 w-auto right-8">
-                    {userPresence}
-                </div>
-                <div className="flex max-h-9 items-start min-w-fit pr-8 w-auto right-8">
-                    {userPresence}
-                </div>
-                <div className="flex max-h-9 items-start min-w-fit pr-8 w-auto right-8">
-                    {userPresence}
-                </div>
-                <div className="flex max-h-9 items-start min-w-fit pr-8 w-auto right-8">
-                    {userPresence}
-                </div>
-                <div className="flex max-h-9 items-start min-w-fit pr-8 w-auto right-8">
-                    {userPresence}
-                </div>
+            <div className="flex max-h-9 items-start min-w-fit pr-8 justify-center w-auto right-8">
+                {userPresence}
             </div>
         </div>
         )
