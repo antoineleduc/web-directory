@@ -7,32 +7,6 @@ function Center() {
             <Quote/>
             <Quote/>
             <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
         </div>
     )
 }
