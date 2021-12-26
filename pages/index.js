@@ -18,7 +18,7 @@ export default function Home() {
           <HomePage />
         </main>
       </body>
-      <div className="h-16">
+      <div className="h-20">
         <footer className="absolute w-screen bottom-0 mb-3 mt-3 text-sm bg-white">
           <hr />
           <Footer />
