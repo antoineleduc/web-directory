@@ -7,24 +7,24 @@ import Navigation from "./components/Navigation"
 export default function Home() {
 
   return (
-    <div className="bg-white h-full">
-      <body className="bg-white">
-      <Head>
-        <title>Web Directory</title>
-      </Head>
-      <main>
-        <Header />
-        <Navigation />
-        <HomePage />
-      </main>
-      <footer>
+    <div className="min-h-screen bg-white">
+      <body className="relative min-h-[100%] bg-white">
+        <Head>
+          <title>Web Directory</title>
+        </Head>
+        <main>
+          <Header />
+          <Navigation />
+          <HomePage />
+        </main>
+      </body>
+      <footer className="absolute w-screen bottom-0 mb-3 mt-3 text-sm bg-white">
         <hr />
         <Footer />
       </footer>
-      </body>
     </div>
     
   )
 }
 
-//"https://api.five9.com/wssupervisor/v3/SupervisorWebService?wsdl%26user=6050328%26password=B34rg6!3Antoine#
+//"https://api.five9.com/wssupervisor/v3/SupervisorWebService?wsdl%26user=6050328%26password=B34rg6!3Antoine#"

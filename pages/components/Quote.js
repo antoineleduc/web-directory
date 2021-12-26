@@ -28,9 +28,9 @@ function Quote() {
     return (
         <div className="flex ml-8 mr-8 mb-6 mt-2 bg-white h-full max-w-screen-sm">
             <blockquote className="relative p-4 text-xl italic border-l-8 bg-[#192114]/75 rounded-3xl text-white border-[#ff462d] quote">
-                <p className="font-bold text-3xl mx-2 font-serif">“</p>
-                <p suppressHydrationWarning className="mb-3">{randomResult[0]}</p>
-                <p className="font-bold mb-2 text-3xl text-right mr-6 font-serif">”</p>
+                <p className="font-bold text-xl mx-2 font-serif">“</p>
+                <p suppressHydrationWarning className="mb-3 text-l">{randomResult[0]}</p>
+                <p className="font-bold mb-2 text-xl text-right mr-6 font-serif">”</p>
                 <p suppressHydrationWarning className="mb-1 text-sm italic font-bold text-right mr-4">
                     —&ensp;{randomResult[1]}
                 </p>

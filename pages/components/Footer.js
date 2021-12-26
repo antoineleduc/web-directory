@@ -1,17 +1,15 @@
 function Footer() {
     return (
-        <div
-        class="container flex flex-wrap items-center justify-center px-4 py-8 mx-auto  lg:justify-between"
-      >
-        <div class="flex flex-wrap justify-center">
-          <ul class="flex items-center space-x-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Terms</li>
-          </ul>
-        </div>
-        <div class="flex justify-center mt-4 lg:mt-0">
+        <div className="">
+            <div class="mt-3 items-center">
+                <ul class="flex justify-center mb-2 lg:mt-0 space-x-4">
+                    <li>Home</li>
+                    <li>Directory</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        <div class="flex justify-center lg:mt-0 space-x-4">
           <a>
             <svg
               fill="currentColor"
@@ -26,7 +24,7 @@ function Footer() {
               ></path>
             </svg>
           </a>
-          <a class="ml-3">
+          <a>
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -40,7 +38,7 @@ function Footer() {
               ></path>
             </svg>
           </a>
-          <a class="ml-3">
+          <a>
             <svg
               fill="none"
               stroke="currentColor"
@@ -56,7 +54,7 @@ function Footer() {
               ></path>
             </svg>
           </a>
-          <a class="ml-3">
+          <a>
             <svg
               fill="currentColor"
               stroke="currentColor"
