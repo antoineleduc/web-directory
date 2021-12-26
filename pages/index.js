@@ -18,10 +18,12 @@ export default function Home() {
           <HomePage />
         </main>
       </body>
-      <footer className="absolute w-screen bottom-0 mb-3 mt-3 text-sm bg-white">
-        <hr />
-        <Footer />
-      </footer>
+      <div className="h-16">
+        <footer className="absolute w-screen bottom-0 mb-3 mt-3 text-sm bg-white">
+          <hr />
+          <Footer />
+        </footer>
+      </div>
     </div>
     
   )
