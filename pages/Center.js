@@ -2,14 +2,6 @@ import Quote from "./Quote";
 
 const uri = "http://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc"
 
-function httpGet(theUrl)
-{
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request 
-    xmlHttp.send(null);
-    return xmlHttp.responseText;
-}
-
 function Center() {
 
     const QuoteBlock = (
@@ -21,7 +13,7 @@ function Center() {
     );
 
     const LoggedInUser = (
-        httpGet(uri)
+        (uri)
     );
 
 
