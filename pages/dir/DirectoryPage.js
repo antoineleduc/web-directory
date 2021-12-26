@@ -1,4 +1,4 @@
-export default function DirectoryPage() {
+function DirectoryPage() {
     return (
         <div>
             <p>This is the Directory page</p>
