@@ -3,7 +3,6 @@ import HomePage from "./dir/HomePage"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navigation from "./components/Navigation"
-import NavPage from "./components/Navigation"
 
 export default function Home() {
 
