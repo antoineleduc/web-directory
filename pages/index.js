@@ -10,7 +10,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <body className="relative min-h-[100%] bg-white">
         <Head>
-          <title>Web Directory</title>
+          <title>The Tech Duke - Web Directory Project</title>
         </Head>
         <main>
           <Header />
