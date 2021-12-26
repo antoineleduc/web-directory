@@ -19,13 +19,8 @@ function HomePage() {
             <Quote/>
         </div>
     );
-
-    const LoggedInUser = (
-        (uri)
-    );
-
+    
     return QuoteBlock
-    return LoggedInUser
 }
 
 export default HomePage
