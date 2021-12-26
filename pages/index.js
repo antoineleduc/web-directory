@@ -16,8 +16,11 @@ export default function Home() {
         <Header />
         <Navigation />
         <HomePage />
-        <Footer />
       </main>
+      <footer>
+        <hr />
+        <Footer />
+      </footer>
       </body>
     </div>
     
