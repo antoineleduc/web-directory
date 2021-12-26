@@ -8,10 +8,6 @@ import Rellax from "rellax";
 
 function Navigation() {
 
-    var rellax = new Rellax('.rellax', {
-        wrapper:'opacity=0'
-    });
-
     return (
         <div className="sticky top-0 z-20">
             <section className="flex sticky w-screen h-40 bg-gradient-to-b to-white/0 from-kyndryl justify-center">
