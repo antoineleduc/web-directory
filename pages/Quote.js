@@ -23,7 +23,7 @@ const leftright = [
 function Quote() {
 
     const align = shuffle(leftright).pop();
-    const randomResult = shuffle(quotes).pop();
+    const randomResult = shuffle(quotes).pop(); 
 
     return (
         <div className="flex ml-8 mr-8 mb-6 mt-2 bg-white h-full max-w-screen-sm">
