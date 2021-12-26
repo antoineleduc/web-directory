@@ -24,7 +24,7 @@ function Center() {
     );
 
     const LoggedInUser = (
-        httpGetAsync(uri)
+        httpGetAsync( uri, any )
     );
 
 
