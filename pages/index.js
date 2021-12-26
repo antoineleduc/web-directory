@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Home from "./dir/Home"
+import HomePage from "./dir/HomePage"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navigation from "./components/Navigation"
@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <Header />
         <Navigation />
-        <Home />
+        <HomePage />
         <Footer />
       </main>
     </div>
