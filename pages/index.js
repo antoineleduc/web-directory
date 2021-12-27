@@ -7,7 +7,7 @@ import initialyzeSearch from "./scripts/initialyzeSearch"
 
 $().on('keyup', function (e) {
   if (e.key === 'Enter' || e.keyCode === 13) {
-      console.log('Header')
+      console.log()
     }
   });
 
