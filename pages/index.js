@@ -3,8 +3,11 @@ import HomePage from "./dir/HomePage"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navigation from "./components/Navigation"
+import initialyzeSearch from "./scripts/initialyzeSearch"
 
 export default function Home() {
+
+  console.log(initialyzeSearch());
 
   return (
     <div className="min-h-screen bg-white">
