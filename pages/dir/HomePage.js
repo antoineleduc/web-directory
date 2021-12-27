@@ -1,6 +1,6 @@
 import Quote from "../components/Quote.js";
 
-const uri = "http://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc"
+const uri = "https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc"
 
 function HomePage() {
 
