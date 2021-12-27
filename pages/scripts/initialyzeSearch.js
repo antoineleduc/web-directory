@@ -3,7 +3,7 @@ function initialyzeSearch() {
     var XMLHttpRequest = require('xhr2');
     var xhr = new XMLHttpRequest();
 
-    const url='http://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=';
+    const url='https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=';
     xhr.open("GET", url);
     xhr.send();
 
