@@ -7,16 +7,6 @@ function HomePage() {
     const QuoteBlock = (
         <div>
             <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
-            <Quote/>
         </div>
     );
     
