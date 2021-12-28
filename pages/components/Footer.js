@@ -1,3 +1,5 @@
+import "babel-polyfill";
+
 function Footer() {
     return (
         <div className="absolute bottom-0 pl-20 pr-20 pb-4 w-screen">

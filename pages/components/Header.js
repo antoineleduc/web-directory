@@ -1,3 +1,5 @@
+import "babel-polyfill";
+
 import Image from "next/image"
 
 function Header() {

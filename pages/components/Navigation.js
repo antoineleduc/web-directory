@@ -4,6 +4,7 @@ import {
     AtSymbolIcon,
     QuestionMarkCircleIcon
   } from "@heroicons/react/outline"
+  import "babel-polyfill";
 
 function Navigation() {
 
