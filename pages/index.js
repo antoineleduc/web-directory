@@ -102,7 +102,7 @@ export const HomePage = ({ results })  => {
         </div>
           </main>
           <div className="h-20">
-            <footer className="absolute w-full bottom-0 mb-3 mt-3 text-sm bg-white">
+            <footer className="relative w-full bottom-0 mb-3 mt-3 text-sm bg-white">
               <hr />
               <Footer />
             </footer>
