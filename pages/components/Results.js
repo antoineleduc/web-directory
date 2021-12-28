@@ -7,6 +7,7 @@ function Results({ results }) {
   const [users, setUsers] = useState(results)
 
   const fetchUser = async () => {
+
     let query = document.getElementById("searchItem").value
     let baseurl = 'https://unified-profile-api.us-south-k8s.intranet.ibm.com/v3/profiles/';
     let fullUrl = baseurl.concat(query);
@@ -18,10 +19,9 @@ function Results({ results }) {
 
     setUsers(data)
   }
-
     return ( 
       <> 
-        <button onClick={fetchUser} className="flex bg-kyndryl rounded-2xl border-kyndryl-green border-l-8 border-2 ml-8 pl-3 pr-3 pt-0.5 pb-0.5">
+        <button id="searchbtn" onClick={fetchUser} className="flex bg-kyndryl rounded-2xl border-kyndryl-green border-l-8 border-2 ml-8 pl-3 pr-3 pt-0.5 pb-0.5">
             <p>Search</p>
         </button>
       </>
