@@ -1,7 +1,6 @@
 import Quote from "../components/Quote.js";
 
-
-export async function getStaticProps(context) {
+async function getStaticProps(context) {
   const url='https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc';
 
   const res = await fetch(url)
@@ -28,7 +27,7 @@ function HomePage({ data }) {
     
     const Results = (
         <div>
-            <p>{data}</p>
+           <p> {props: data}</p>
         </div>
     );
     
