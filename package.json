@@ -17,6 +17,7 @@
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
+    "@babel/core": "latest",
     "@heroicons/react": "^1.0.5",
     "ajax": "^0.0.4",
     "babel-plugin-react-html-attrs": "^3.0.5",
