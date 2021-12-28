@@ -18,7 +18,15 @@ function Results({ results }) {
     const response = await fetch(fullUrl);
     const data = await response.json();  
 
-    window.alert("UID: " + data.profiles[0].content.uid + "\nFull Name: " + data.profiles[0].content.nameFull)
+    var fullName = data.profiles[0].content.nameFull
+    var uid = data.profiles[0].content.uid
+    var email = data.profiles[0].content.preferredIdentity
+    var address = data.profiles[0].content.address.business.address[0]
+    var location = data.profiles[0].content.address.business.location
+    var deptCode = data.profiles[0].content.dept.code
+    var deptTitle = data.profiles[0].content.dept.title
+
+    window.alert("UID: " + uid + "\nFull Name: " + fullName + "\nEmail: " + email + "\nWork Location: " + address + ", " + location + "\nDepartment: " + deptCode + " - " + deptTitle)
 
     setUsers(data)
   }
