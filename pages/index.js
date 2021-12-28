@@ -16,8 +16,6 @@ export default function Home() {
             <Header />
             <Navigation />
             <HomePage />
-            <div className="flex ml-8 mr-8 mb-6 mt-2 bg-white h-full items-center max-w-screen-sm">
-        </div>
           </main>
         </body>
         <div className="h-20">
