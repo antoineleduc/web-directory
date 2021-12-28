@@ -5,12 +5,6 @@ import Header from "./components/Header"
 import Navigation from "./components/Navigation"
 import initialyzeSearch from "./scripts/initialyzeSearch"
 
-$().on('keyup', function (e) {
-  if (e.key === 'Enter' || e.keyCode === 13) {
-      console.log()
-    }
-  });
-
 export default function Home() {
 
   console.log(initialyzeSearch());
