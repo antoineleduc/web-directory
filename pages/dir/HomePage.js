@@ -1,34 +1,14 @@
 import Quote from "../components/Quote.js";
 import Searchresults from "../components/Searchresults.js"
 
-const uri = "https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc"
-
 function HomePage() {
-
-    const url='https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc';
-
-    var XMLHttpRequest = require('xhr2');
-    var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("emo").innerHTML = alert(this.responseText);
-            }
-        };
-
-    xhttp.withCredentials = true;
-    xhttp.open("GET", url, true);
-
-    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencode');
-    xhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
-    xhttp.setRequestHeader('Access-Control-Allow-Credentials', 'true');
-
-    xhttp.send();
-
-    xhttp.responseText
 
     const Block = (
         <div>
             <Quote/>
+            <div className="ml-8">
+            <button onClick={Searchresults} className="flex border-kyndryl-green border-1 border-l-8 bg-kyndryl text-white rounded-xl pl-3 pr-4 pt-2 pb-2">Load Results</button>
+            </div>
         </div>
     );
     
