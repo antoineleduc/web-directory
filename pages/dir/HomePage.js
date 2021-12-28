@@ -27,7 +27,7 @@ function HomePage({ data }) {
     
     const Results = (
         <div>
-           <p> {props: {data}}</p>
+           <p> {props} {data}</p>
         </div>
     );
     
