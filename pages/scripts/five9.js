@@ -1,4 +1,4 @@
-// "https://api.five9.com/wssupervisor/v3/SupervisorWebService?wsdl%26user=***password=***
+// "https://api.five9.com/wssupervisor/v3/SupervisorWebService?wsdl%26user=*password=*
 
 function five9() {
     return (

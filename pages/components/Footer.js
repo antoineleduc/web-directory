@@ -1,22 +1,22 @@
 function Footer() {
     return (
         <div className="">
-            <div class="mt-3 items-center">
-                <ul class="flex justify-center mb-2 lg:mt-0 space-x-4">
+            <div className="mt-3 items-center">
+                <ul className="flex justify-center mb-2 lg:mt-0 space-x-4">
                     <li>Home</li>
                     <li>Directory</li>
                     <li>About</li>
                     <li>Contact</li>
                 </ul>
             </div>
-        <div class="flex justify-center lg:mt-0 space-x-4">
+        <div className="flex justify-center lg:mt-0 space-x-4">
           <a>
             <svg
               fill="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
+              className="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
               <path
@@ -30,7 +30,7 @@ function Footer() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
+              className="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
               <path
@@ -45,7 +45,7 @@ function Footer() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
+              className="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -61,7 +61,7 @@ function Footer() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="0"
-              class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
+              className="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
               <path

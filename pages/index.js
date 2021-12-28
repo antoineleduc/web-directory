@@ -10,6 +10,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Head>
         <title>The Tech Duke - Web Directory Project - {process.env.NODE_ENV} </title>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       </Head>
       <main className="relative min-h-[100%] bg-white">
         <Header />
@@ -26,4 +27,4 @@ export default function Home() {
   )
 }
 
-//"https://api.five9.com/wssupervisor/v3/SupervisorWebService?wsdl%26user=6050328%26password=B34rg6!3Antoine#"
+//"https://api.five9.com/wssupervisor/v3/SupervisorWebService?wsdl%26user=*password=*

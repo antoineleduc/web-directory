@@ -1,4 +1,9 @@
-function Searchresults() {
+import Cors from 'cors'
+import initMiddleware from '../../lib/init.middleware'
+
+export default async function Searchresults(req, res) {
+
+    await cors(req, res)
 
     const url='https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc';
 
@@ -23,5 +28,3 @@ function Searchresults() {
         xhttp.responseText
     )
 }
-
-export default Searchresults

@@ -3,9 +3,6 @@ import Image from "next/image"
 function Header() {
     return (
         <div>
-            <head>
-                <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-            </head>
             <header className="flex bg-kyndryl h-40 w-full items-center justify-center overflow-hidden">
                 <div className="flex w-full h-full items-center space-x-10 p-10"> 
                     <div className="">
