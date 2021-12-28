@@ -20,19 +20,23 @@ export async function getStaticProps(context) {
 
 function HomePage({ data }) {
  
-    const Block = (
+    const Quoteblock = (
         <div>
             <Quote/>
         </div>
     );
     
+    const Results = (
+        <div>
+            <p>{data}</p>
+        </div>
+    
     return (
     
-    <ul>
-      {data.map((test) => (
-        <li>{test}</li>
-      ))}
-    </ul>
+        <div>
+            <Quoteblock/>
+            <Results/>
+        </div>
     
     )
 }
