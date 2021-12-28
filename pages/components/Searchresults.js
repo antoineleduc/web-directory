@@ -8,4 +8,11 @@ async function fetchURL() {
   console.log('Request failed', error)  
 });
   
+  return
+  (
+  response
+  )
+  
 }
+
+export default fetchURL;
