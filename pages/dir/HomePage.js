@@ -1,5 +1,5 @@
 import Quote from "../components/Quote.js";
-import Searchresults from "../components/Searchresults.js"
+import Searchresults from "../../Searchresults.js"
 
 function HomePage() {
 
