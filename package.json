@@ -5,7 +5,13 @@
     "build": "next build",
     "start": "next start"
   },
-  "browser": { "fs": false, "path": false, "os": false, "net": false, "tls": false },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "tls": false
+  },
   "dependencies": {
     "-": "^0.0.1",
     "@heroicons/react": "^1.0.5",
