@@ -1,5 +1,21 @@
 import Quote from "../components/Quote.js";
-import fetchURL from "../../Searchresults.js";
+
+async function fetchURL() {
+
+const url='https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc';
+
+  const response = await fetch(url, {mode: 'no-cors'})
+.then(function(response) {
+  console.log(response); 
+}).catch(function(error) {  
+  console.log('Request failed', error)  
+});
+  
+  return (
+        console.log(response)
+    )
+
+}
 
 function HomePage() {
 
@@ -7,7 +23,8 @@ function HomePage() {
         <div>
             <Quote/>
             <div className="ml-8">
-            <button onClick={async ()=> {await fetchURL()}} className="flex border-kyndryl-green border-1 border-l-8 bg-kyndryl text-white rounded-xl pl-3 pr-4 pt-2 pb-2">Load Results</button>
+            <button onClick={async ()=> {await fetchURL()}} 
+            className="flex border-kyndryl-green border-1 border-l-8 bg-kyndryl text-white rounded-xl pl-3 pr-4 pt-2 pb-2">Load Results</button>
             </div>
         </div>
     );
