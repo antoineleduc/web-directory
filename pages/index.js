@@ -10,6 +10,7 @@ export default function Home() {
       <div className="min-h-screen bg-white">
         <body className="relative min-h-[100%] bg-white">
           <Head>
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
             <title>The Tech Duke - Web Directory Project</title>
           </Head>
           <main>
