@@ -12,6 +12,13 @@ const Layout = ({children}) => {
             <Header />
             <Navigation />
             <Quote />
+            <Quote />
+            <Quote />
+            <Quote />
+            <Quote />
+            <Quote />
+            <Quote />
+            <Quote />
             { children }
             <Footer />
         </div>

@@ -2,7 +2,7 @@ import "babel-polyfill";
 
 function Footer() {
     return (
-        <div className="absolute bottom-0 pl-20 pr-20 pb-4 w-screen">
+        <div className="relative bottom-0 pl-20 pr-20 pb-4 w-screen">
             <hr/>
             <div className="mt-3 items-center">
                 <ul className="flex justify-center mb-2 lg:mt-0 space-x-4">
