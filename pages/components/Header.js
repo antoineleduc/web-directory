@@ -76,12 +76,17 @@ function Results({ results }) {
 
   export async function getServerSideProps() {
   
-    const data = <div><p>No data</p></div>
+    let query = document.getElementById("searchItem").value
+    let baseurl = 'https://unified-profile-api.us-south-k8s.intranet.ibm.com/v3/profiles/';
+    let fullUrl = baseurl.concat(query);
+    
+    const res = await fetch(fullUrl);
+    const data = await res.json();  
     
     
     return { 
       props: {
-        results: data,
+        data,
       },
      }
   }
