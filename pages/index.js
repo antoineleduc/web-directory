@@ -1,5 +1,5 @@
 import Head from "next/head"
-import HomePage from "./dir/HomePage"
+import HomePage from "../dir/HomePage"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navigation from "./components/Navigation"
