@@ -1,4 +1,4 @@
-import Quote from "../components/Quote.js";
+import Quote from "../pages/components/Quote.js";
 
 async function fetchURL() {
 
