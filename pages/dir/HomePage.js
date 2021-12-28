@@ -30,6 +30,7 @@ function HomePage({ data }) {
         <div>
             <p>{data}</p>
         </div>
+    );
     
     return (
     
