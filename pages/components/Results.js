@@ -15,10 +15,10 @@ function Results({ results }) {
     const response = await fetch(fullUrl);
     const data = await response.json();  
 
-    if (!response.ok){window.alert("No results. Make sure you are connected to the IBM VPN and try again.")}
-
+    if (!response.ok){window.alert("No results...\nMake sure you are connected to the IBM VPN and try again.")}
+    if (response.ok){
     window.alert("UID: " + data.profiles[0].content.uid + "\nFull Name: " + data.profiles[0].content.nameFull)
-
+    }
     setUsers(data)
   }
     return ( 

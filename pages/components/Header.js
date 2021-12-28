@@ -18,9 +18,9 @@ function Results({ results }) {
     const response = await fetch(fullUrl);
     const data = await response.json();  
 
-    if (!response.ok){window.alert("No results. Make sure you are connected to the IBM VPN and try again.")}
+    if (!response.ok){window.alert("No results...\nMake sure you are connected to the IBM VPN and try again.")}
 
-
+    if (response.ok){
     var fullName = data.profiles[0].content.nameFull
     var uid = data.profiles[0].content.uid
     var email = data.profiles[0].content.preferredIdentity
@@ -30,7 +30,7 @@ function Results({ results }) {
     var deptTitle = data.profiles[0].content.dept.title
 
     window.alert("UID: " + uid + "\nFull Name: " + fullName + "\nEmail: " + email + "\nWork Location: " + address + ", " + location + "\nDepartment: " + deptCode + " - " + deptTitle)
-
+  }
     setUsers(data)
   }
     return ( 
