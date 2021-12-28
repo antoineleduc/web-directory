@@ -1,6 +1,7 @@
 import Image from "next/image"
 
 function Header() {
+
     return (
         <div>
             <header className="flex bg-kyndryl h-40 w-full items-center justify-center overflow-hidden">
@@ -12,7 +13,7 @@ function Header() {
                         height={120}
                         />
                         </div>
-                    <div className="flex w-full items-center">
+                    <div id="searchBox" className="flex w-full items-center">
                         <input type="text" id="searchItem" className="flex flex-grow right-8 h-14 pl-5 rounded focus:shadow focus:outline-none" placeholder="Search..."></input>
                         <div className="absolute top-4 right-8  "> 
                         <i className="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
