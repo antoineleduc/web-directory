@@ -1,7 +1,9 @@
-function initialyzeSearch() {
+import { setHttpAgentOptions } from 'next/dist/server/config';
 
+function Searchresults() {
     const url='https://bluepages.ibm.com/BpHttpApisv3/wsapi?allByNameFuzzy=Antoine%20Leduc';
 
+    var XMLHttpRequest = require('xhr2');
     var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
@@ -11,18 +13,24 @@ function initialyzeSearch() {
 
     xhttp.withCredentials = true;
     xhttp.open("GET", url, true);
-    
+
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencode');
 
     xhttp.send();
-    
+
     xhttp.onreadystatechange = (e) => {
-        console.log(xhttp.responseText)
+        return (
+            xhttp.responseText       
+        )
     }
     
+    const text = xhttp.onreadystatechange
+
     return (
-        xhttp.responseText
+        <div>
+            {text}
+        </div>
     )
 }
 
-export default initialyzeSearch
+export default Searchresults
