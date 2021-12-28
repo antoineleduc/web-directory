@@ -13,9 +13,9 @@ function Footer() {
           <a>
             <svg
               fill="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
@@ -27,9 +27,9 @@ function Footer() {
           <a>
             <svg
               fill="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
@@ -42,9 +42,9 @@ function Footer() {
             <svg
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
@@ -58,9 +58,9 @@ function Footer() {
             <svg
               fill="currentColor"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="0"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="0"
               class="w-6 h-6 text-[#ff462d] opacity-100 hover:opacity-60"
               viewBox="0 0 24 24"
             >
