@@ -17,10 +17,6 @@ const path = require('path');
 
 // CORS Middleware
 
-
-
-
-
 if (!process.env.PORT) {
   require('dotenv').config()
 }
@@ -93,9 +89,6 @@ app.use(function(req, res, next) {
   console.log(res.locals.user);
   next();
 });
-
-
-
 
 models.sequelize.sync().then(() => {
   const server = app.listen(port, () => {
